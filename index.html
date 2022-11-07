@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="head">
+    <form class="head1" id="form" onsubmit="return submitForm()">
+        <h1 class="head7">signup Form</h1>
+        <div class="head2">
+        <label class="head4" for="" >UserName</label> <br>
+        <input class="head3" type="text" id="UserName" value="" > <br>
+        <p class="head5" id="userError" class="error"></p>
+        <label class="head4" for="">Email</label> <br>
+        <input class="head3" type="emailError" id="email" value="" ><br>
+        <p class="head5" id="emailError" class="error"></p>
+        <label class="head4" for="">Password</label><br>
+        <input class="head3" type="password" id="password" value="" ><br>
+        <p class="head5" id="passError" class="error"></p>
+        <label class="head4" for="">Confirm Password</label><br>
+        <input class="head3" type="password" id="confpassword" value="" ><br>
+        <p class="head5" id="confpassError" class="error"></p>
+        <button class="head6" type="submit" >Submit</button>
+        <p id="success" class="error"></p>
+    </div>
+    </form>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
